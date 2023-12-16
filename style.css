@@ -1,10 +1,8 @@
-/* Reset some default styles */
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -22,7 +20,6 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Header Styles */
 header {
     background: linear-gradient(45deg, #3498db, #e74c3c);
     color: #bf3c3c;
@@ -41,7 +38,6 @@ header p {
     font-size: 1.2em;
 }
 
-/* Section Styles */
 section {
     margin-bottom: 30px;
     padding: 20px;
@@ -55,13 +51,11 @@ h2 {
     font-size: 2.5em;
 }
 
-/* About Section Styles */
 #about p {
     font-size: 1.2em;
     color: #333;
 }
 
-/* Skills Section Styles */
 #skills ul {
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +70,6 @@ h2 {
     border: 2px solid #27ae60;
 }
 
-/* Projects Section Styles */
 #projects {
     text-align: center;
 }
@@ -87,7 +80,6 @@ h2 {
     border-radius: 15px;
 }
 
-/* Education Section Styles */
 #education h3 {
     color: #f39c12;
     font-size: 2em;
@@ -98,7 +90,6 @@ h2 {
     color: #333;
 }
 
-/* Contact Section Styles */
 #contact {
     text-align: center;
 }
@@ -123,7 +114,6 @@ h2 {
     text-decoration: underline;
 }
 
-/* Footer Styles */
 footer {
     background: linear-gradient(45deg, #333, #2c3e50);
     color: #ab2020;
